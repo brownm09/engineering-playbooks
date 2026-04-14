@@ -24,6 +24,10 @@ Governance model for CI/CD pipelines at scale: ownership, required gates, secret
 **[launchdarkly-rollout-governance.md](experimentation/launchdarkly-rollout-governance.md)**
 Flag lifecycle management for LaunchDarkly at scale. Covers flag taxonomy, naming conventions, rollout sequencing, targeting rules, experiment guardrails, and the cleanup policy that prevents flag debt from accumulating.
 
+### AI Adoption
+**[ai-adoption-readiness-framework.md](ai-adoption/ai-adoption-readiness-framework.md)**
+Framework for rolling out AI-assisted development tools (GitHub Copilot, Claude, Claude Code, Cursor) across engineering organizations. Covers a four-stage IC fluency rubric, role-differentiated use cases (IC vs. manager), task classification by risk level, a three-tier observability model, and a phased gate model that sequences access to higher-risk workflows on demonstrated readiness. Developed across two production rollouts (ActBlue 2024–2025, CTA 2025–2026). Includes a worked example and rollback triggers.
+
 ## Context
 
 These frameworks were developed and applied across high-volume, regulated platforms including a payments processor handling 1M+ transactions/day under PCI-DSS. They are written to be adapted, not followed verbatim. The right answer for your system depends on your scale, team structure, and constraints.
