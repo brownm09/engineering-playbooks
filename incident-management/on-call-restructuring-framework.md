@@ -1,5 +1,7 @@
 # On-Call Restructuring Framework
 
+> **Leadership context:** On-call structure is a talent and delivery risk, not just an ops concern. Unsustainable rotation load drives attrition among your most experienced engineers, increases incident duration, and degrades the reliability signal that leadership depends on for investment decisions. A well-designed on-call program is an argument for trust — it demonstrates that the org can absorb failure without heroics.
+
 ## Problem Statement
 
 A common failure mode in on-call programs: a small team gets paged for everything, regardless of who actually owns the problem or can fix it. Alerts are not standardized, so some issues surface only when an engineer notices something is wrong, not when a monitor fires. There is no mechanism for recording incident start and end times, so the org has no data on frequency, duration, or trend.

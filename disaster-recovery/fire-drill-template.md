@@ -1,5 +1,7 @@
 # Disaster Recovery Fire Drill Template
 
+> **Leadership context:** Untested DR plans are a liability, not an asset. Boards and enterprise customers increasingly ask for evidence of DR validation — a tabletop exercise log is the minimum viable answer. More importantly, fire drills surface the assumptions baked into recovery plans before an actual incident reveals them at cost: undocumented steps, single-person knowledge, and RTO commitments that no one has ever actually validated.
+
 ## Purpose
 
 This template formalizes the tabletop exercise format used to stress-test disaster recovery posture and incident management protocols before a real event forces the issue. The goal is to surface gaps in failover readiness, standardization debt, and coordination assumptions while the cost of finding them is low.
