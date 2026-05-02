@@ -1,5 +1,7 @@
 # CI/CD Pipeline Governance Guide
 
+> **Leadership context:** Pipeline governance is a delivery confidence problem, not a DevOps tooling problem. Without it, the org cannot answer basic questions that engineering leadership needs answered: what changed, who approved it, and could it have caused this incident? DORA metrics — the primary lens for executive-level delivery reporting — are only credible when the pipeline enforces the gates that make them meaningful.
+
 ## Purpose
 
 This guide covers the decisions and controls that determine whether a CI/CD pipeline is trustworthy at scale. It is written for engineering orgs that have pipelines running but have not formalized the rules around who can change them, what gates are required, and how to audit what ran.

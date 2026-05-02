@@ -1,5 +1,7 @@
 # PCI-DSS Gap Analysis Checklist
 
+> **Leadership context:** PCI-DSS compliance is not a legal checkbox — it is a trust prerequisite for any business that processes payments. For engineering leadership, the gap analysis is the artifact that translates compliance requirements into a prioritized engineering workplan. Arriving at a QSA assessment without having done this work first is expensive: remediation timelines measured in months, potential assessment failure, and the reputational cost of delayed card-brand certifications.
+
 ## Purpose
 
 This checklist supports an initial gap analysis against PCI-DSS v4.0 requirements for engineering teams operating in or adjacent to the cardholder data environment (CDE). It is not a substitute for a formal QSA assessment, but it is the right starting point before one: it surfaces the gaps that are fixable before the auditor arrives and identifies the ones that require longer remediation timelines.

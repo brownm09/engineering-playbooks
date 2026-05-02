@@ -1,5 +1,7 @@
 # AI Adoption Readiness Framework (AARF)
 
+> **Leadership context:** AI tooling adoption is a capability investment with a measurable ROI — and a risk surface if left ungoverned. The engineering leader's job is not to decide whether to adopt AI tools (that decision is effectively made), but to structure the rollout so that productivity gains are captured, quality does not regress, and the org does not develop a dependency on a tool no one fully understands. This framework treats adoption as a phased program with gates, not a one-time rollout.
+
 > A practitioner's guide to rolling out AI-assisted development tools in engineering organizations — designed to accelerate leverage while preventing engineers from outsourcing judgment to the tool.
 
 **Author:** Mike Brown  
