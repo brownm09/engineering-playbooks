@@ -287,3 +287,10 @@ Run this check quarterly, either in the engineering leadership retrospective or 
 5. **Is there any decision that engineering is currently delaying because the accountability is unclear?** Name it and assign it before leaving the room.
 
 If the answer to all five questions is "no, nothing notable," either alignment is working well or the check-in is not surfacing real information. The tie-breaker is to ask each function's leader separately whether they have any friction with engineering. If the answers differ from what engineering leadership reported, the problem is information flow, not alignment.
+
+## Further Reading
+
+| Topic | Resource |
+|---|---|
+| Conway's Law | Conway, "How Do Committees Invent?" *Datamation* (1968) |
+| Team structure and cross-functional alignment | Skelton & Pais, *Team Topologies* (IT Revolution Press, 2019) |

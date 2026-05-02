@@ -124,65 +124,7 @@ A weekly status report that consistently contains no risks, no asks, and only mi
 
 ## Escalation Memo
 
-The weekly status report covers normal program operations. The escalation memo is for situations where the weekly cadence is not fast enough — where a decision is needed before next week's update.
-
-Use the escalation memo when:
-- A milestone will slip unless a decision is made in the next 48–72 hours
-- A blocker has appeared that the program team cannot resolve without executive action
-- A risk has materialized into an issue that materially changes the program outlook
-
-### Format
-
-**Subject:** `[ESCALATION] [Program Name] — [One-sentence description of the issue]`
-
----
-
-**Situation**
-
-*[2–3 sentences. What happened? When did it happen? What is the current state?]*
-
-The compliance vendor (Acme Compliance) has notified us that they cannot complete the pen test before May 15 — two weeks later than the May 1 audit-readiness milestone requires. We learned this on April 9. This puts the SOC 2 Type II audit timeline at risk.
-
----
-
-**Timeline**
-
-- **April 9:** Received vendor notification of capacity constraint
-- **May 1:** Current audit-readiness milestone (pen test completion required)
-- **May 15:** Earliest vendor availability
-- **June 1:** SOC 2 audit window opens — this is the hard external deadline
-
----
-
-**Options**
-
-*[2–3 options, each with the key tradeoff stated in one sentence. Do not advocate in this section — present objectively.]*
-
-**Option A — Use alternative vendor (Beta Security):** Beta Security can complete the pen test by April 28. Beta Security has not tested our stack before, which means a 1-week onboarding period is required and the scope may differ from the original. Cost: $45K (vs. $30K with Acme). Deadline maintained.
-
-**Option B — Reduce pen test scope:** Acme can complete a scoped test (payments and auth systems only, excluding admin tooling) by May 1. This means admin tooling is excluded from the SOC 2 audit scope, which requires legal confirmation that this scope is acceptable. Timeline maintained; scope risk.
-
-**Option C — Accept the delay:** Proceed with Acme on their May 15 timeline and assess whether the June 1 audit window can be adjusted with the audit firm. This requires outreach to the audit firm immediately to determine flexibility. Risk: if the audit window is fixed, we miss it.
-
----
-
-**Recommendation**
-
-*[One paragraph. State which option you recommend and why. Be direct. You are the person with context; make the call and let the exec confirm or override.]*
-
-Recommend Option A. The $15K cost delta is modest relative to the cost of an audit timeline slip. Beta Security's onboarding period is manageable — Priya will schedule a scope kickoff call the week of April 12. The alternative vendor risk is lower than either scope reduction or timeline delay.
-
----
-
-**Decision Needed By**
-
-April 11, 5pm. We need to execute a contract with Beta Security by April 12 to start onboarding on April 13. A decision after April 11 makes Option A unavailable without schedule impact.
-
----
-
-**Contact**
-
-Priya Agarwal (Security Lead), Marcus Webb (Program Lead). Available by Slack or phone for questions before April 11.
+Use the canonical escalation memo format defined in the [Escalation Framework](../operating-cadence/escalation-framework.md). That document covers trigger criteria, severity levels, and the full 5-field memo template (Situation / Impact / Options / Recommendation / By when).
 
 ---
 
@@ -270,7 +212,7 @@ Marcus Webb, Sarah Chen
 
 ---
 
-## Common Pitfalls
+## Common Failure Modes
 
 **Status updates that read as activity reports.** "This week the team completed X, Y, and Z" with no evaluation of whether that is good, bad, or concerning. The reader cannot tell if the program is healthy. Every update needs an explicit status judgment, not just a list of completed work.
 

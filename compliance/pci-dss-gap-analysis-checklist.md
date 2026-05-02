@@ -1,6 +1,8 @@
 # PCI-DSS Gap Analysis Checklist
 
-> **Leadership context:** PCI-DSS compliance is not a legal checkbox — it is a trust prerequisite for any business that processes payments. For engineering leadership, the gap analysis is the artifact that translates compliance requirements into a prioritized engineering workplan. Arriving at a QSA assessment without having done this work first is expensive: remediation timelines measured in months, potential assessment failure, and the reputational cost of delayed card-brand certifications.
+## Leadership Context
+
+PCI-DSS compliance is not a legal checkbox — it is a trust prerequisite for any business that processes payments. For engineering leadership, the gap analysis is the artifact that translates compliance requirements into a prioritized engineering workplan. Arriving at a QSA assessment without having done this work first is expensive: remediation timelines measured in months, potential assessment failure, and the reputational cost of delayed card-brand certifications.
 
 ## Purpose
 

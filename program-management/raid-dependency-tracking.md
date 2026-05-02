@@ -235,3 +235,10 @@ For programs with 5+ workstreams, the RAID log becomes unwieldy if all items are
 **Separate vendor/external dependencies.** External dependencies have different management paths — you cannot directly resolve them. Create a dedicated section or tab for vendor and third-party dependencies and manage them through a relationship owner rather than the standard workstream lead path.
 
 **Link to source systems.** Where a risk or issue has a corresponding Jira ticket, engineering incident, or legal review document, link directly from the RAID log entry. This reduces the double-maintenance burden and makes it easier for leads to update status where they are already working.
+
+## Further Reading
+
+| Topic | Resource |
+|---|---|
+| RAID management methodology | PMI, *PMBOK Guide*, 7th ed. (PMI, 2021) |
+| Risk and team dynamics | DeMarco & Lister, *Peopleware* (Dorset House, 1987) |

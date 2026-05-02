@@ -338,7 +338,7 @@ additional fraud losses in Q1 while we wait."
 
 ---
 
-## Common Pitfalls
+## Common Failure Modes
 
 ### Too Much Technical Detail
 
@@ -369,3 +369,9 @@ Surface risks early, frame them constructively, and bring a mitigation plan. Tha
 Executives cannot act on information they receive after the window to act has closed. A headcount request that arrives two weeks before the hiring freeze goes up is too late. An incident summary that lands 12 hours after the incident is resolved is too late for the CEO to have context for the customer conversation they already had.
 
 The timing of upward communication matters as much as the content. When in doubt, communicate earlier and with less polish than later and perfectly formatted.
+
+## Further Reading
+
+| Topic | Resource |
+|---|---|
+| Structured executive communication | Minto, *The Pyramid Principle* (Pearson, 2009) |
