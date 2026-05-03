@@ -1,4 +1,4 @@
-# Engineering Playbooks
+# Tech Leadership Playbooks
 
 Operational and leadership frameworks from production engineering work across payments, platform, and compliance contexts. Each document reflects decisions made in real systems, not hypothetical best practices. Organized by the leadership domain each framework addresses.
 
@@ -106,6 +106,18 @@ Engineering-focused checklist for a PCI-DSS v4.0 gap analysis. Organized by all 
 
 **[ai-adoption/ai-adoption-readiness-framework.md](ai-adoption/ai-adoption-readiness-framework.md)**
 Framework for rolling out AI-assisted development tools (GitHub Copilot, Claude, Claude Code, Cursor) across engineering organizations. Covers a four-stage IC fluency rubric, role-differentiated use cases (IC vs. manager), task classification by risk level, a three-tier observability model, and a phased gate model that sequences access to higher-risk workflows on demonstrated readiness. Developed across two production rollouts (ActBlue 2024–2025, CTA 2025–2026). Includes a worked example and rollback triggers.
+
+---
+
+## Product & Documentation
+
+Frameworks for product definition and AI-assisted documentation standards.
+
+**[leadership/ai-documentation-standards.md](leadership/ai-documentation-standards.md)**
+Auditability and verifiability standards for AI-generated architectural documentation, ADRs, design docs, and playbooks. Covers attribution requirements, verification obligations, confidence labeling, and the review process for AI-assisted content. Applicable to any project using Claude Code or another AI assistant as a contributor.
+
+**[leadership/prd-lifecycle.md](leadership/prd-lifecycle.md)** *(in progress)*
+One living PRD per product, two-tier update process, and changelog requirements. Applies the continuous discovery model — the PRD tracks evolving product understanding rather than locking scope at a point in time.
 
 ---
 
