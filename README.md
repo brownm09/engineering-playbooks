@@ -116,8 +116,8 @@ Frameworks for product definition and AI-assisted documentation standards.
 **[leadership/ai-documentation-standards.md](leadership/ai-documentation-standards.md)**
 Auditability and verifiability standards for AI-generated architectural documentation, ADRs, design docs, and playbooks. Covers attribution requirements, verification obligations, confidence labeling, and the review process for AI-assisted content. Applicable to any project using Claude Code or another AI assistant as a contributor.
 
-**[leadership/prd-lifecycle.md](leadership/prd-lifecycle.md)** *(in progress)*
-One living PRD per product, two-tier update process, and changelog requirements. Applies the continuous discovery model — the PRD tracks evolving product understanding rather than locking scope at a point in time.
+**[leadership/prd-lifecycle.md](leadership/prd-lifecycle.md)**
+One living PRD per product. Covers PRD structure (job-outcome table, personas, hypothesis and bets, append-only changelog), two-tier update process (minor vs. major changes), lifecycle stages with gates (Discovery → Alignment → Delivery → Shipped), ownership model, and common failure modes including the frozen PRD, PRD-as-contract, and solution PRD anti-patterns.
 
 ---
 
