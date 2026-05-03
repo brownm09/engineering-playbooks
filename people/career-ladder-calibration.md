@@ -337,4 +337,4 @@ The check-in is not a mini-performance review. It is a calibration conversation 
 | Topic | Resource |
 |---|---|
 | Career ladders and engineering management | Fournier, *The Manager's Path* (O'Reilly, 2017) |
-| Engineering org design and leveling | Larson & Reilly, *An Elegant Puzzle* (Stripe Press, 2019) |
+| Engineering org design and leveling | Larson, *An Elegant Puzzle* (Stripe Press, 2019) |
