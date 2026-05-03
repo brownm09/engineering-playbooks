@@ -6,6 +6,10 @@ How you structure your engineering organization determines what your software ar
 
 This playbook treats org structure as a first-class engineering decision with measurable outcomes: deployment frequency, time to detect and recover from incidents, and the percentage of sprint capacity spent on coordination rather than delivery. Designed for Directors and Heads of Engineering who are inheriting a structure, scaling through a growth inflection, or rationalizing after an acquisition.
 
+## Background and Motivation
+
+This framework was developed from the org design work at ActBlue Technical Services (2022–2024). I identified ownership gaps across the platform, defined team scope for three new teams — DevEx, Payments Architecture, and Database Platform — built hiring processes with recruiting, made the hiring decisions, and onboarded the engineers and managers. The chartering work eliminated cross-team dependency bottlenecks and established domain ownership that had been ambiguous under the previous structure.
+
 ---
 
 ## When to Use This

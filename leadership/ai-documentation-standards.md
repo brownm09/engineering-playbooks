@@ -6,6 +6,12 @@ documentation, design documents, ADRs, playbooks, or technical recommendations
 
 ---
 
+## Background and Motivation
+
+These standards were developed from the Claude Code and Claude integration initiative at Community Tech Alliance (2025–2026). I designed the phased rollout plan with separate use cases for engineers and managers and developed a structured evaluation rubric for measuring impact. The auditability requirements here emerged from the recognition that AI-generated documentation lacks the same provenance chain as human-authored documentation — and that for regulated environments and portfolio-quality work, that gap needs to be closed explicitly.
+
+---
+
 ## Core Principle: AI Recommendations Must Be Sourced
 
 When an AI assistant produces documentation that names a technology, pattern, protocol, or

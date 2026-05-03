@@ -6,6 +6,10 @@ Technical due diligence is the moment when an engineering leader's judgment most
 
 The business outcome: thorough technical diligence reduces integration risk, produces defensible inputs to purchase price adjustments, and gives the post-close engineering leadership team a credible integration plan on day one rather than day 60.
 
+## Background and Motivation
+
+This framework was synthesized from multi-year platform and compliance work in regulated environments at ActBlue Technical Services (2022–2025), spanning PCI environment deprecation, multi-regional infrastructure deployment, monolith decomposition, and disaster recovery validation. It does not derive from a single M&A diligence engagement — it represents the technical assessment posture developed across programs that required the same rigor: what would you need to know to take on this system, and what would it cost to fix what you found?
+
 ## When to Use This
 
 The diligence emphasis changes based on acquisition type. Use this framework to select and weight domains, not to run every domain at full depth for every acquisition.

@@ -6,6 +6,10 @@ Headcount planning is where engineering leadership earns or loses credibility wi
 
 The business outcome: accurate headcount modeling increases delivery confidence (teams are not perpetually understaffed), reduces time-to-hire pressure (you know when you need the person before it is urgent), and builds the kind of exec trust that translates into more headcount authority over time. Engineering leaders who consistently hit their delivery commitments get more headcount the next cycle. Leaders who miss because they failed to account for attrition, ramp time, or toil do not.
 
+## Background and Motivation
+
+This playbook was developed from the headcount modeling work for the platform directorate at ActBlue Technical Services (2024–2025). I developed the multi-year platform directorate technical vision and translated it into headcount requirements across 6 teams, presenting to the VP of Engineering and Head of Product across multiple planning cycles.
+
 ## When to Use This
 
 **Annual planning.** The org is setting headcount targets and budget for the next fiscal year. Engineering needs to translate a product roadmap into an FTE model that finance can evaluate.

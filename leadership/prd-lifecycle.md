@@ -153,6 +153,12 @@ The PRD is archived (read-only). The outcomes are documented in a brief post-shi
 
 ---
 
+## Background and Motivation
+
+This lifecycle model was developed from the feature lifecycle and roadmapping process revision at Community Tech Alliance (2025–2026). I designed and drove the process changes; the team adopted them. The revision shifted emphasis from scope-locked product specifications to outcome-oriented living documents — a change that reduced planning debt and improved IC alignment with the problems the engineering org was actually trying to solve.
+
+---
+
 ## References
 
 - [Clayton Christensen, Taddy Hall, Karen Dillon, and David Duncan — "Know Your Customers' 'Jobs to Be Done'" (*Harvard Business Review*, September 2016)](https://hbr.org/2016/09/know-your-customers-jobs-to-be-done) — The canonical HBR treatment of the Jobs to Be Done framework. Establishes that customers hire products to accomplish specific outcomes, not to consume features. The job-outcome table format in §2 (job + "success looks like") is a direct application.

@@ -4,6 +4,10 @@
 
 Escalation failure is one of the most expensive and least discussed problems in engineering organizations. When escalation works, problems surface early enough that they can be managed — a delivery risk is caught in week 3 of a 12-week project, not in week 10; a personnel situation is addressed before it affects the team; a reputational risk reaches the CTO before it reaches the press. When escalation fails, the organization pays the compound interest on every day the problem was visible to someone below the decision-making level but not above it. This playbook covers when to escalate, to whom, in what format, and how to do it without blame or alarm — and how to distinguish the situations that require escalation from the ones that should be handled at the team level without surfacing upward.
 
+## Background and Motivation
+
+The escalation patterns in this framework were developed across multi-team programs at ActBlue Technical Services (2022–2025) — particularly the PCI environment deprecation and Heroku→Kubernetes migration, both of which ran against compliance deadlines and required sustained executive visibility over multiple years. The trigger categories and escalation levels here reflect what actually kept those programs on track, not a generic model.
+
 ## When to Use This
 
 - A new IC or engineering manager is onboarding and needs to understand what "good escalation behavior" looks like in this org

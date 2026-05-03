@@ -4,6 +4,10 @@
 
 An engineering leader's ability to communicate upward is a direct multiplier on the team's impact. If the CTO, CEO, or board cannot quickly understand what engineering has delivered, what it needs, and what risks it is managing, they will make resourcing and priority decisions with incomplete information — and engineering will consistently lose those decisions to functions that communicate better. This playbook covers the written artifacts that engineering leaders produce for executive and board audiences: the formats, the principles, and the failure modes to avoid. Getting these right is not about polish; it is about building the executive trust that translates into headcount, runway, and the ability to make consequential technical bets.
 
+## Background and Motivation
+
+These templates were developed from repeated upward communication at ActBlue Technical Services (2022–2025): presenting roadmaps and program status to the VP of Engineering and Head of Product, presenting the PCI deprecation business case to Legal, Finance, and Product leadership, and making headcount and investment requests through multiple planning cycles. The formats here are the ones that produced alignment — not approximations of what good communication looks like in theory.
+
 ## When to Use This
 
 - Preparing for a QBR, board presentation, or investor due diligence session where engineering will have a dedicated slot

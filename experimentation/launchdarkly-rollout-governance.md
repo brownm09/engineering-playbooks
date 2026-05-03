@@ -8,6 +8,10 @@ Feature flags are the primary mechanism for decoupling deployment from release â
 
 Feature flags without governance become permanent conditionals that no one understands and no one removes. This guide covers the policies and practices that keep a LaunchDarkly implementation useful over time: flag naming, lifecycle management, targeting rules, rollout sequencing, and the cleanup process that prevents flag debt from accumulating.
 
+## Background and Motivation
+
+This governance framework was developed from the LaunchDarkly rollout at ActBlue Technical Services (2022â€“2024). I managed the vendor relationship, designed the proof-of-concept, and drove cross-team adoption across teams inside and outside my direct management. The platform team built the proof-of-concept; product engineering teams participated in rollout. The first customer-facing flag reached production within 4 months of the program mandate.
+
 ## Flag Taxonomy
 
 Flags serve different purposes and should be managed differently. The most useful distinction:

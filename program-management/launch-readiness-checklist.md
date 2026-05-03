@@ -4,6 +4,10 @@
 
 The decision to launch is a leadership decision, not an engineering decision — and the quality of that decision depends on the quality of the information provided. Unstructured go/no-go conversations produce launches that slip because no one owned the call, launches that proceed when they should not because the relevant concern was never surfaced, and launches that generate on-call crises because operational readiness was assumed rather than verified. This playbook establishes a structured gate framework that gives the person making the go/no-go call a complete picture across eight readiness domains, a documented record of who accepted which risks, and a launch day sequence with explicit decision points. When a launch fails, the gate record answers the question executives will ask: what did we know, and what did we decide?
 
+## Background and Motivation
+
+This checklist was developed from the launch readiness work on the payment processor migration to Stripe at ActBlue Technical Services (2022–2025). I led the program and defined scope and sequencing; my team executed the migration. Outcome: 2,600+ entity accounts migrated; payments codebase shrunk by 7,000+ lines. The eight readiness domains reflect the failure modes that payment-path releases expose — surfaced through hands-on launch management rather than derived from a template.
+
 ## When to Use This
 
 Apply this launch gate framework for:

@@ -4,6 +4,10 @@
 
 OKRs are one of the most frequently adopted and most frequently broken planning tools in engineering organizations. When they work, they create a direct line from an IC's quarterly work to a company-level outcome, make accountability legible at every level of the org, and give engineering leaders a credible answer when executives ask "what is engineering doing and why does it matter?" When they fail — which is most of the time — they become a performance theater exercise that consumes three weeks of Q1 planning and is forgotten by April. This playbook covers the mechanics and judgment calls that determine which outcome you get.
 
+## Background and Motivation
+
+This framework was developed from the OKR setting and cascading work at ActBlue Technical Services (2024–2025). I developed the multi-year platform directorate technical vision and translated it into objectives aligned across 6 teams. The two failure modes documented here — activity OKRs and unmeasurable aspirations — are patterns I encountered and corrected in practice.
+
 ## When to Use This
 
 - Annual or quarterly planning cycle is underway and OKRs need to be set, refined, or re-anchored to company priorities

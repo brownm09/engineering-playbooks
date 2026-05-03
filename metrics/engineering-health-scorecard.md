@@ -6,6 +6,10 @@ A Director or Head of Engineering who cannot quantify the health of the engineer
 
 This is not a dashboard for engineers. Engineers need granular telemetry. The health scorecard is a leadership communication artifact: 8–12 metrics, organized by domain, that answer the questions a non-technical executive will ask about engineering capability, reliability, and sustainability.
 
+## Background and Motivation
+
+This scorecard format was developed from the Jellyfish rollout and org-wide engineering health reporting work at ActBlue Technical Services (2024–2025). I led the rollout, owned engineering health reporting for the platform directorate, defined the metrics framework, and trained managers and ICs across six teams. The scorecard is the artifact that translates raw delivery data into the format a VP of Engineering can use in a QBR or board presentation.
+
 ---
 
 ## When to Use This

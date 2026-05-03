@@ -4,6 +4,10 @@
 
 Engineering organizations that cannot align effectively with product, design, legal, finance, and sales do not just deliver slower — they deliver the wrong things, at the wrong time, with last-minute surprises that erode trust with every function they depend on. Cross-functional alignment is not a soft skill; it is an operational capability that determines whether engineering can make and keep commitments. The cost of misalignment compounds: a legal review that starts three weeks too late delays a launch by a quarter; a sales commitment made without engineering input creates a customer expectation no one can meet; a finance model built on the wrong headcount assumptions generates budget fights mid-year. This playbook establishes the decision authorities, rituals, and interfaces that keep engineering in alignment with every function it touches.
 
+## Background and Motivation
+
+This playbook was developed from the cross-functional coordination work on the PCI environment deprecation program at ActBlue Technical Services (2022–2025). I owned the program — the vision, the business case, the executive alignment, and the cross-team coordination across product, compliance, legal, finance, and account operations. The program ran against both external audit deadlines and internal milestones, requiring active alignment across stakeholders with different timelines and incentives. Outcome: full deprecation; 2,600+ accounts migrated; 30% codebase reduction.
+
 ## When to Use This
 
 - A new engineering leader is onboarding and needs to understand how engineering relates to its cross-functional partners

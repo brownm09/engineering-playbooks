@@ -4,6 +4,14 @@
 
 The most common reason technical and organizational changes fail is not technical — it is that people do not know why the change is happening, do not trust the process, or cannot see what the change means for them. A migration that is technically complete but operationally unused has not succeeded. A reorg that was announced but never reinforced reverts within a quarter. This framework applies to the transitions that engineering leaders must manage at the org level: infrastructure migrations, process overhauls, tooling consolidations, and organizational restructuring. The business outcomes at stake are adoption rate (does the change actually stick?), rollback risk (do we have to undo it?), and people trust during uncertainty (do teams remain productive through the transition?). All three are leadership problems before they are technical ones.
 
+## Background and Motivation
+
+This framework was developed from two change management deployments:
+
+1. **Raytheon / NASA EED/2 (2018–2019):** I led a Waterfall→Kanban→SAFe transition for a team of 20+ personnel. I conducted working groups, adapted ceremonies for the team's context, and built the JIRA migration tooling to replace the legacy Waterfall tooling.
+
+2. **ActBlue Technical Services (2022–2024):** I applied the same change management posture to the LaunchDarkly rollout — driving cross-team adoption from zero to first customer-facing flag in production within 4 months — and to the on-call restructuring, which required redesigning roles and handover processes across multiple teams simultaneously.
+
 ## When to Use This
 
 Apply this framework when:
