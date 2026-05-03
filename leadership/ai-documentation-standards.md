@@ -53,7 +53,7 @@ Link to the primary regulatory or standards body source. Do not cite compliance 
 summaries or blog posts as the authoritative source.
 
 **Examples:**
-- GDPR Article 17 → [gdpr-info.eu/art-17-gdpr](https://gdpr-info.eu/art-17-gdpr/)
+- GDPR Article 17 → [EUR-Lex — GDPR (Regulation 2016/679), Article 17](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679)
 - HIPAA Security Rule → [hhs.gov/hipaa/for-professionals/security](https://www.hhs.gov/hipaa/for-professionals/security/index.html)
 
 ---
