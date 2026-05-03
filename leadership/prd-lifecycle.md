@@ -80,10 +80,10 @@ Not all changes to the PRD are equal. Use two tiers to reduce change-control fri
 - Clarifications that don't change scope or success criteria
 - Updated metrics or targets based on baseline data
 - Persona refinements from user interviews
-- Removing features deferred to a later version (log the reason)
+- Removing features deferred to a later version (log the reason; if the cut affects team allocation or delivery commitments, use Tier 2 instead)
 - Copy edits and format fixes
 
-**Process:** Edit the document, add a changelog entry, notify the team in the project Slack channel.
+**Process:** Edit the document, add a changelog entry, notify the team in the project communication channel.
 
 ### Tier 2 — Major (requires PM + EM alignment before update)
 
