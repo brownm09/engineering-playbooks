@@ -6,6 +6,10 @@ A career ladder is not an HR artifact — it is the primary mechanism by which a
 
 The business outcome is straightforward: equitable promotion decisions reduce regrettable attrition, reduce the cost of external hiring (replacing a mid-level engineer typically runs 0.5–1x their annual salary in recruiting and ramp costs), and give managers a shared vocabulary for growth conversations that do not depend on a single person's judgment.
 
+## Background and Motivation
+
+This playbook was developed from the talent development work at ActBlue Technical Services (2022–2025). I drove three engineer promotions within three years through deliberate project placement, calibration preparation, and sustained advocacy — two from SE2 to SSE2 (a double promotion) and one from SSE to SSE2. I also founded and ran the Engineering Management Community of Practice, which systematized calibration coaching, talent development, and recruiting partnership across the manager group.
+
 ## When to Use This
 
 **First career ladder.** The org has been making level decisions informally — "Senior" means whatever the hiring manager decided at offer time, and there is no shared standard for what promotion requires.

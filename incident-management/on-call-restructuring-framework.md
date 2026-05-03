@@ -4,6 +4,10 @@
 
 On-call structure is a talent and delivery risk, not just an ops concern. Unsustainable rotation load drives attrition among your most experienced engineers, increases incident duration, and degrades the reliability signal that leadership depends on for investment decisions. A well-designed on-call program is an argument for trust — it demonstrates that the org can absorb failure without heroics.
 
+## Background and Motivation
+
+This framework was developed from the on-call restructuring at ActBlue Technical Services (2022–2024). I redesigned the cross-team incident handover process and redefined responder roles across a 5-person SRE team that was absorbing every incident in the organization. The structural changes — separating coordination from resolution, introducing per-team rotations, and centralizing alert instrumentation — reduced friction and improved stakeholder resolution clarity.
+
 ## Problem Statement
 
 A common failure mode in on-call programs: a small team gets paged for everything, regardless of who actually owns the problem or can fix it. Alerts are not standardized, so some issues surface only when an engineer notices something is wrong, not when a monitor fires. There is no mechanism for recording incident start and end times, so the org has no data on frequency, duration, or trend.

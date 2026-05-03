@@ -6,6 +6,14 @@ A technical strategy document is the primary artifact through which an engineeri
 
 The audience for a technical strategy is not primarily engineers — it is the executive team, the board, and the finance function that controls the budget. It must be legible to a CFO who wants to know why replatforming requires 6 headcount for 18 months, and to a CEO who wants to know how the technical investment connects to market position. Engineers read it too, and it must be credible to them — but optimizing the document for engineers at the expense of executive legibility is the most common failure mode.
 
+## Background and Motivation
+
+This template was developed from two successive technical strategy engagements:
+
+1. **ActBlue Technical Services (2024–2025):** I developed the multi-year platform directorate technical vision, set direction for a 6-team directorate, and presented roadmaps and program status to the VP of Engineering and Head of Product.
+
+2. **Community Tech Alliance (2025–2026):** I designed and wrote a 12-month technical investment roadmap entirely, prioritizing DR posture, dependency management, and release confidence for a lean GCP-based engineering org.
+
 ---
 
 ## When to Use This

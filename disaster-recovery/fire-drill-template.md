@@ -10,9 +10,9 @@ This template formalizes the tabletop exercise format used to stress-test disast
 
 Tabletop exercises prioritize catastrophic failure scenarios first (full failover, data loss, regional outage) and work down to lesser issues in subsequent runs. Starting with the worst case ensures that recovery of critical functions is validated before teams spend time on lower-severity paths.
 
-## Background
+## Background and Motivation
 
-At ActBlue, no formal DR drill process existed. The exercise was introduced to validate that the platform could continue receiving payments during a disaster scenario, which is the single most critical function of the system. Exercises were modeled after the TREX (Threat and Risk Exercise) format used at Capital One, adapted for a payments-focused engineering org.
+At ActBlue Technical Services (2022–2024), no formal DR drill process existed. I designed the fire drill structure and ran the drills. The exercise was introduced to validate that the platform could continue receiving payments during a disaster scenario — the single most critical function of the system. The format was modeled after the TREX (Threat and Risk Exercise) approach used at Capital One, adapted for a payments-focused engineering org. Outcome: improved incident preparedness; DR posture validated before a real event.
 
 The first exercise exposed a standardization gap: user-facing components were hosted on Heroku rather than the standard AWS/Kubernetes stack. During the tabletop, engineers working through failover procedures immediately hit friction because Heroku recovery paths were unfamiliar and underdocumented compared to the rest of the platform. This led to a migration of those components to AWS/Kubernetes, eliminating $64K/year in infrastructure costs and removing the operational outlier from DR scope.
 

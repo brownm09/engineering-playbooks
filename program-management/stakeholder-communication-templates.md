@@ -4,6 +4,10 @@
 
 The highest-leverage thing a TPM or engineering leader does is give stakeholders accurate information at the right frequency. Bad program communication produces one of two failure modes: stakeholders who are constantly surprised because they did not know things were going wrong, or stakeholders who are overwhelmed and stop reading updates because the signal-to-noise ratio is too low. Both failure modes erode trust and slow decision-making. The templates in this playbook exist to remove the weekly cost of deciding how to communicate — so the work becomes choosing the right facts to surface, not structuring them from scratch each time.
 
+## Background and Motivation
+
+These templates were developed from the stakeholder communication work on the PCI environment deprecation program at ActBlue Technical Services (2022–2025). I presented roadmap and business case to Legal, Finance, Product, and Account Ops stakeholders across a multi-year program running against external audit deadlines. The weekly status, escalation memo, and milestone announcement formats here are the ones that maintained executive alignment through a 3-year program.
+
 ## When to Use This
 
 Apply these templates for any program with:

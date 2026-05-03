@@ -6,6 +6,14 @@ The build-vs-buy decision is one of the highest-leverage calls an engineering le
 
 The failure mode is not choosing wrong. The failure mode is choosing without a framework — following instinct, optimizing for the wrong dimension (usually initial cost), or letting the decision get made by whoever is most vocal in the architecture meeting. This playbook provides a structured, repeatable approach to build-vs-buy decisions that produces a documented rationale, surfaces the trade-offs explicitly, and creates an audit trail for post-decision review.
 
+## Background and Motivation
+
+This framework was developed from two high-stakes build-vs-buy decisions at ActBlue Technical Services:
+
+1. **Heroku → Kubernetes on AWS (2022–2024):** I identified the migration priority from incident data, built the business case, and cleared the organizational path. The DevEx team handled application-level delivery; the cloud platform team owned the infrastructure layer. Outcome: $64K/year infrastructure savings and simplified incident management.
+
+2. **Payment processor migration to Stripe (2022–2025):** I led the program and defined scope and sequencing. My team executed the migration. Outcome: 2,600+ entity accounts migrated; payments codebase shrunk by 7,000+ lines.
+
 ---
 
 ## When to Use This

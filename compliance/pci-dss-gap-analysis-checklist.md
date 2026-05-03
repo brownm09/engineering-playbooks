@@ -10,6 +10,10 @@ This checklist supports an initial gap analysis against PCI-DSS v4.0 requirement
 
 The checklist is organized by the 12 PCI-DSS requirement domains. For each domain, the focus is on the controls that engineering teams are most likely to own or partially own. Compliance, legal, and security teams own some of these; the gaps that cause engineering orgs the most trouble are the ones that sit at the boundary.
 
+## Background and Motivation
+
+This checklist was developed from the PCI-DSS gap analysis I led at ActBlue Technical Services (2022–2024), conducted in preparation for a formal QSA assessment. I led the analysis and owned the remediation roadmap; the team executed against it. The gap analysis directly preceded and informed the multi-year PCI environment deprecation program — ultimately migrating 2,600+ entity accounts to Stripe and reducing the payments codebase by 30%.
+
 ## Scope Definition (Do This First)
 
 Before running the checklist, define CDE scope. Scope creep is the most common source of unnecessary remediation work.

@@ -2,6 +2,8 @@
 
 Operational and leadership frameworks from production engineering work across payments, platform, and compliance contexts. Each document reflects decisions made in real systems, not hypothetical best practices. Organized by the leadership domain each framework addresses.
 
+**[ORIGINS.md](ORIGINS.md)** traces each framework back to the specific engagement, program, and outcome that produced it, with first-person framing for each.
+
 ## Org Design & Strategy
 
 Frameworks for how a Director or Head of Engineering structures the organization, sets technical direction, and makes investment decisions.

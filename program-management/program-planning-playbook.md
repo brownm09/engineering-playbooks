@@ -4,6 +4,10 @@
 
 Multi-team technical programs are where engineering leadership makes or breaks delivery credibility with the business. When a program slips, the root cause is almost never a technical problem — it is a planning problem: scope that was never agreed to, dependencies that were invisible until they were blocking, and milestone dates that were set to satisfy a deadline rather than reflect actual sequencing. This playbook documents how to scope, launch, and run a program in a way that gives executives accurate visibility and gives engineers clear ownership. The output is not a Gantt chart — it is a shared understanding of what "done" means and what it will take to get there.
 
+## Background and Motivation
+
+This playbook was developed from the PCI environment deprecation program at ActBlue Technical Services (2022–2025) — a multi-year initiative I owned from vision through full completion. I owned the vision, the business case, the executive alignment, and the cross-team coordination across 4–5 engineering teams with stakeholders in product, compliance, legal, finance, and account operations. Outcome: full deprecation; 2,600+ accounts migrated to Stripe; 30% codebase reduction.
+
 ## When to Use This
 
 Apply program-level treatment when:

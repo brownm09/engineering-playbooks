@@ -10,6 +10,14 @@ This guide covers the decisions and controls that determine whether a CI/CD pipe
 
 A pipeline with no governance is a deployment mechanism. A pipeline with governance is part of the software supply chain, with accountability to match.
 
+## Background and Motivation
+
+This framework draws from two deployments:
+
+1. **Capital One (2019–2022):** I led the standardization of CI/CD pipelines across multiple engineering departments, completing the migration two months ahead of schedule. Outcome: 300 engineering hours saved per team.
+
+2. **ActBlue Technical Services (2022–2024):** I chartered the DevEx team, which owned application-level delivery tooling — CI/CD pipelines, the internal developer platform, and deployment scaffolding. The cloud infrastructure layer was owned by a separate team outside my direct management.
+
 ## Pipeline Ownership Model
 
 Every pipeline should have a clearly assigned owner. Pipelines without owners accumulate configuration drift and are the last to get updated when security requirements change.

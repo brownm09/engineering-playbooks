@@ -4,6 +4,10 @@
 
 An engineering org without a defined operating cadence makes decisions at the wrong level, at the wrong time, or not at all. The result is predictable: strategy set in Q1 is invisible by Q2, engineering managers spend their 1:1s on status updates instead of development, and the VP learns about a critical platform risk in the same meeting where the CTO does. This playbook defines the meeting and ritual structure that reduces decision latency, keeps leadership bandwidth focused on the right problems, and creates the coordination surface that cross-functional partners can depend on. When the cadence is working, surprises shrink and trust grows — both inside the engineering org and with the business.
 
+## Background and Motivation
+
+This playbook was developed from the operating cadence work at ActBlue Technical Services (2024–2025), where I set and ran the meeting and ritual structure for a platform directorate of approximately 50 engineers across 6 teams. The cadence described here reflects what sustained delivery rhythm looks like in practice at that scale — not in theory.
+
 ## When to Use This
 
 - A new VP or Director is stepping into an existing org and needs to understand what cadence is already in place (and what is broken)
