@@ -39,7 +39,7 @@ Every framework in this repo was developed from real work, not synthesized from 
 | [Engineering OKR Framework](operating-cadence/engineering-okr-framework.md) | ActBlue Technical Services (2024–2025) | OKR setting and cascading for the multi-year platform directorate | Aligned 2024–2025 initiatives across 6 teams; cascaded from company objectives to team-level work | "I developed the multi-year platform directorate technical vision and translated it into objectives aligned across the directorate." |
 | [Executive Communication Templates](operating-cadence/executive-communication-templates.md) | ActBlue Technical Services (2022–2025) | Presenting roadmaps to VP Eng and Head of Product; PCI deprecation business cases to Legal, Finance, and Product leadership | Executive alignment maintained across multi-year programs; headcount and investment approved | "I presented roadmap and business case to Legal, Finance, and Product leadership for a multi-year, cross-team program." |
 | [Cross-Functional Alignment Playbook](operating-cadence/cross-functional-alignment-playbook.md) | ActBlue Technical Services (2022–2025) | PCI environment deprecation coordination across product, compliance, legal, finance, and account operations | Full deprecation; 2,600+ accounts migrated; alignment held across 4–5 teams and external audit deadlines | "I owned the program — the vision, the business case, the executive alignment, and the cross-team coordination." |
-| [Escalation Framework](operating-cadence/escalation-framework.md) | ActBlue Technical Services (2022–2025) | Escalation patterns from PCI deprecation and Heroku→K8s cross-functional programs | On-track delivery against compliance deadlines; executive visibility maintained | "The trigger categories and levels here reflect what actually kept multi-year programs on track under compliance pressure." |
+| [Escalation Framework](operating-cadence/escalation-framework.md) | ActBlue Technical Services (2022–2025) | Escalation patterns from PCI deprecation and Heroku→K8s cross-functional programs | On-track delivery against compliance deadlines; executive visibility maintained | "I developed and applied the escalation model across multi-year programs running against compliance deadlines. The trigger categories and levels here are what kept those programs on track." |
 
 ---
 
@@ -74,11 +74,18 @@ Every framework in this repo was developed from real work, not synthesized from 
 
 ---
 
-## AI Adoption & Leadership
+## Technology Adoption
 
 | Framework | Engagement | Origin | Outcome | In my own words |
 |---|---|---|---|---|
 | [AI Adoption Readiness Framework](ai-adoption/ai-adoption-readiness-framework.md) | ActBlue Technical Services (2024–2025) → Community Tech Alliance (2025–2026) | GitHub Copilot + Claude pilot (ActBlue); Claude Code integration initiative with phased rollout, IC/manager use cases, and evaluation rubric (CTA) | Observability built into rollout at ActBlue; structured framework with separate use cases and rubric developed at CTA | "I designed the ActBlue pilot and built observability into it. The structured framework — separate use cases, evaluation rubric, and phased rollout — came together at CTA." |
+
+---
+
+## Product & Documentation
+
+| Framework | Engagement | Origin | Outcome | In my own words |
+|---|---|---|---|---|
 | [AI-Assisted Documentation Standards](leadership/ai-documentation-standards.md) | Community Tech Alliance (2025–2026) | Claude Code + Claude integration initiative — auditability standards for AI-generated documentation | Framework designed; did not advance to implementation before departure | "I designed the initiative and the sequencing, including separate use cases for engineers and managers and a structured evaluation rubric." |
 | [PRD Lifecycle Management](leadership/prd-lifecycle.md) | Community Tech Alliance (2025–2026) | Feature lifecycle and roadmapping process revision | Reduced planning debt; improved IC alignment; shifted emphasis to outcomes | "I designed and drove the process changes. The team adopted them." |
 
