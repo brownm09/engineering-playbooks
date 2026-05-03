@@ -209,7 +209,7 @@ At the end of each quarter, before setting next quarter's OKRs, run a 30-minute 
 
 ---
 
-## Anti-Patterns
+## Common Failure Modes
 
 ### Too Many OKRs
 
@@ -302,3 +302,10 @@ My call: [Whether I expect to be on track, at risk, or off track at quarter end,
 The OKR system only works if people believe that honest low scores will be treated as information, not as performance failures. An engineering director who responds to a 0.3 with criticism rather than curiosity will get inflated scores next quarter. The question when a KR scores low is: what does this tell us about what we planned vs. what was actually possible? That is a planning question, not a performance question — unless the pattern of low scores persists across multiple quarters with the same owner and the same explanations.
 
 Building that distinction into how you respond to scores is more important than any template in this document.
+
+## Further Reading
+
+| Topic | Resource |
+|---|---|
+| OKR methodology | Doerr, *Measure What Matters* (Portfolio/Penguin, 2018) |
+| OKRs in practice | Google re:Work — [Set Goals with OKRs](https://rework.withgoogle.com/guides/set-goals-with-okrs/) |

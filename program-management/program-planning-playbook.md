@@ -273,3 +273,9 @@ Categories:
 **Milestone date anchoring.** Dates set in the program brief based on a desired outcome, not on a bottoms-up estimate from the teams doing the work. The earliest symptom is that no team can explain how the milestone date was derived. The fix is to build the milestone schedule from team-level estimates, then have the conversation about the gap between what teams can realistically deliver and what leadership wants — not paper over it.
 
 **The program that is really three projects.** Three separate efforts packaged under a shared banner for executive visibility, but without genuine interdependencies or shared outcomes. These do not benefit from program-level coordination — they benefit from three separate project plans and a shared reporting roll-up. Running them as a program adds overhead without adding value. Dissolve these when you identify them.
+
+## Further Reading
+
+| Topic | Resource |
+|---|---|
+| Program planning methodology | PMI, *A Guide to the Project Management Body of Knowledge (PMBOK Guide)*, 7th ed. (PMI, 2021) |

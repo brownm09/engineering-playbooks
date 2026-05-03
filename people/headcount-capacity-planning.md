@@ -243,7 +243,7 @@ This framing answers the board's actual questions: Is this a good investment? Wh
 
 ---
 
-## What Does Not Work
+## Common Failure Modes
 
 **Headcount as a negotiating anchor.** Asking for 20 engineers expecting to get 12 trains finance to discount every request. If your model supports 12, ask for 12. If the model supports 20 and you believe it, defend 20.
 
@@ -252,3 +252,10 @@ This framing answers the board's actual questions: Is this a good investment? Wh
 **Planning for headcount without planning for onboarding.** Every new hire requires bandwidth from the existing team to ramp — code review, pairing, architecture walkthroughs. If the team is already at capacity, adding two new hires in the same month will reduce total output before it increases it.
 
 **The "we just need one more person" trap.** When a team is struggling to deliver, the instinct is to add headcount. The more likely cause is scope that is not properly bounded, technical debt that is consuming untracked time, or unclear priorities. Headcount does not fix unclear priorities — it amplifies them. Diagnose before you hire.
+
+## Further Reading
+
+| Topic | Resource |
+|---|---|
+| Staffing philosophy | Marquet, *Turn the Ship Around!* (Portfolio/Penguin, 2013) |
+| Capacity and leverage framing | Grove, *High Output Management* (Vintage, 1995) |

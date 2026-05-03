@@ -287,3 +287,10 @@ Attendees: full domain owner group. 60 minutes.
 **Operations readiness treated as post-launch work.** "We'll add proper monitoring after we see how it behaves in production." This is not a plan — it is an intention to operate blind and learn from failures rather than from metrics. Monitoring and alerting are launch requirements, not follow-on items.
 
 **The readiness gate that is really a status broadcast.** Domain owners show up, report green across all domains, and the meeting ends in 10 minutes. No one asked hard questions. The gate is serving as a ceremony, not as a real control. A well-run gate asks: what could still go wrong, who would know first, and what would we do about it? If the answer to all three is clear, the gate is doing its job.
+
+## Further Reading
+
+| Topic | Resource |
+|---|---|
+| Release readiness and continuous delivery | Humble & Farley, *Continuous Delivery* (Addison-Wesley, 2010) |
+| Release engineering practices | Google SRE Book — [Release Engineering](https://sre.google/sre-book/release-engineering/) |

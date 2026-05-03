@@ -272,3 +272,10 @@ This single-question survey takes 10 seconds to answer, produces actionable sign
 **The support that does not get delivered.** The change plan committed to office hours, champions, and training. The office hours had low attendance after week 2, so they were cancelled. The champions program was never actually resourced. The training was a one-time session that is no longer discoverable. Support commitments that are not delivered signal that the commitment was performative — and erode trust in the next change process.
 
 **Measuring the wrong thing.** Tracking completion ("the migration is 80% done") instead of adoption ("80% of teams are operating in the new state"). A migration that is technically 80% complete but has 30% adoption is failing in the metric that matters. Adoption is the outcome; completion is a leading indicator.
+
+## Further Reading
+
+| Topic | Resource |
+|---|---|
+| Change management methodology | Kotter, *Leading Change* (Harvard Business Review Press, 1996) |
+| Individual change adoption (ADKAR) | Prosci ADKAR Model (Prosci, 2006) |

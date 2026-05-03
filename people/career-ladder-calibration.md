@@ -322,7 +322,7 @@ The check-in is not a mini-performance review. It is a calibration conversation 
 
 ---
 
-## What Does Not Work
+## Common Failure Modes
 
 **Publishing a ladder and not using it.** The ladder only has value if calibration decisions reference it explicitly. If managers are not citing level definitions during calibration, the ladder is a document, not a system.
 
@@ -331,3 +331,10 @@ The check-in is not a mini-performance review. It is a calibration conversation 
 **Skipping calibration for years.** Level drift accumulates silently. Two years without calibration produces a distribution where some teams have been promoting aggressively and others have not, and the discrepancy is invisible until someone's lateral transfer exposes it.
 
 **Using the ladder only for promotions.** The level definitions should be the anchor for growth conversations in every 1:1 at every level. If an L4 engineer cannot tell you what L5 looks like in practice, the ladder is not doing its job.
+
+## Further Reading
+
+| Topic | Resource |
+|---|---|
+| Career ladders and engineering management | Fournier, *The Manager's Path* (O'Reilly, 2017) |
+| Engineering org design and leveling | Larson, *An Elegant Puzzle* (Stripe Press, 2019) |

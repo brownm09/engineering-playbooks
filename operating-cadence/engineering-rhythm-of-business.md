@@ -429,3 +429,10 @@ Week 4
 **Run the cadence before adding new meetings.** Every org has too many meetings. Before adding anything from this playbook, audit what already exists. The goal is not to implement every tier at once; it is to replace whatever is broken with something that works.
 
 **Cadence debt compounds.** An org that skips the quarterly retrospective for two quarters, lets the metrics review become a status update, and stops publishing written updates will re-accumulate all the coordination failures this cadence is designed to prevent. The meetings are not the mechanism; the discipline of maintaining them is.
+
+## Further Reading
+
+| Topic | Resource |
+|---|---|
+| Management operating cadence | Grove, *High Output Management* (Vintage, 1995) |
+| Goal-setting and measurement | Doerr, *Measure What Matters* (Portfolio/Penguin, 2018) |

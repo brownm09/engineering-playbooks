@@ -1,6 +1,8 @@
 # LaunchDarkly Rollout Governance
 
-> **Leadership context:** Feature flags are the primary mechanism for decoupling deployment from release — which is what allows an engineering org to ship continuously without betting the business on each deploy. The governance question is not whether to use flags, but whether they remain a controlled instrument or become hidden complexity that slows delivery, obscures system behavior, and accumulates technical debt no one is willing to clean up.
+## Leadership Context
+
+Feature flags are the primary mechanism for decoupling deployment from release — which is what allows an engineering org to ship continuously without betting the business on each deploy. The governance question is not whether to use flags, but whether they remain a controlled instrument or become hidden complexity that slows delivery, obscures system behavior, and accumulates technical debt no one is willing to clean up.
 
 ## Purpose
 

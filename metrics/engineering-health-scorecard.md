@@ -310,3 +310,10 @@ Different metrics belong at different review cadences. Reviewing everything week
 | On-call load | PagerDuty | OpsGenie | Pages per engineer per week |
 | Cycle/lead time ratio | LinearB, Jira | Swarmia | Time in status per ticket type |
 | Attrition | HRIS (Workday, BambooHR) | HR reporting | Voluntary departure by role |
+
+## Further Reading
+
+| Topic | Resource |
+|---|---|
+| DORA metrics | Forsgren, Humble & Kim, *Accelerate* (IT Revolution Press, 2018) |
+| SRE observability | Google SRE Book — [Monitoring Distributed Systems](https://sre.google/sre-book/monitoring-distributed-systems/) |

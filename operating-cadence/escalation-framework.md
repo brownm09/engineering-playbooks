@@ -258,3 +258,10 @@ The response that builds escalation culture: "Thank you for surfacing this early
 The response that kills escalation culture: "Why is this the first I'm hearing about this? This should have been caught earlier."
 
 Both responses may be accurate. Only one of them builds the behavior you need.
+
+## Further Reading
+
+| Topic | Resource |
+|---|---|
+| Difficult conversations and escalation communication | Patterson et al., *Crucial Conversations* (McGraw-Hill, 2021) |
+| Management escalation structures | Grove, *High Output Management* (Vintage, 1995) |

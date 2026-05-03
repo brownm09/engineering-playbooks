@@ -1,6 +1,8 @@
 # On-Call Restructuring Framework
 
-> **Leadership context:** On-call structure is a talent and delivery risk, not just an ops concern. Unsustainable rotation load drives attrition among your most experienced engineers, increases incident duration, and degrades the reliability signal that leadership depends on for investment decisions. A well-designed on-call program is an argument for trust — it demonstrates that the org can absorb failure without heroics.
+## Leadership Context
+
+On-call structure is a talent and delivery risk, not just an ops concern. Unsustainable rotation load drives attrition among your most experienced engineers, increases incident duration, and degrades the reliability signal that leadership depends on for investment decisions. A well-designed on-call program is an argument for trust — it demonstrates that the org can absorb failure without heroics.
 
 ## Problem Statement
 
@@ -66,7 +68,7 @@ The IC rotation is the role most likely to generate questions. Staff engineers a
 - [ ] Shift rotation window to midweek (Wed-Wed) to avoid weekend/holiday handoff problems
 - [ ] Run one full incident cycle before declaring the restructuring complete; adjust based on what breaks
 
-## What Does Not Work
+## Common Failure Modes
 
 **Paging the same team for everything:** It looks like a coverage guarantee but is actually a single point of failure. When the SRE team is unavailable or overwhelmed, incidents stall.
 

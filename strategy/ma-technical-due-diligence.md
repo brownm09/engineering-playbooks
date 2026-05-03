@@ -435,7 +435,7 @@ The risk register should be reviewed at 30, 60, and 90 days post-close in integr
 
 ---
 
-## What Does Not Work
+## Common Failure Modes
 
 **Architecture-only diligence.** The most common failure is a technical diligence that spends 80% of its time on system architecture and 20% on everything else. Architecture is important, but it is also the easiest domain to assess and the easiest for a prepared target company to present well. Key-person risk, licensing obligations, and operational maturity are harder to assess and harder to fake.
 
