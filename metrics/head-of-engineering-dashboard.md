@@ -10,7 +10,7 @@ If everything is green, the dashboard should take 90 seconds to review. It earns
 
 ## Background and Motivation
 
-This framework was developed from direct experience running engineering at ActBlue Technical Services (2024–2025), where I led a six-team platform directorate and owned the metrics infrastructure for engineering health reporting. The distinction between "what I show the CTO" and "what I actually watch every week" became clear after the first QBR cycle: the scorecard was useful for quarterly storytelling but too lagging and too curated to catch in-week drift. The operational dashboard fills that gap.
+> **Author's note:** This framework was developed from direct experience running engineering at ActBlue Technical Services (2024–2025), leading a six-team platform directorate and owning the metrics infrastructure for engineering health reporting. The distinction between "what I show the CTO" and "what I actually watch every week" became clear after the first QBR cycle: the scorecard was useful for quarterly storytelling but too lagging and too curated to catch in-week drift. The operational dashboard fills that gap.
 
 ---
 
@@ -80,7 +80,7 @@ Not just the count — the trend. Two P1s per month is fine if it was four last 
 
 - Watch for: MTTR trending up over multiple weeks (the team is getting slower at recovery, not faster); incident count that stops declining after a remediation effort (the fix was cosmetic, not structural)
 
-**Escaped defect rate (quarterly)**
+**Escaped defect rate (monthly refresh)**
 
 The dashboard refreshes this monthly, not weekly, because it requires Jira classification discipline that does not happen in real time. Flag it at the dashboard level when the monthly update shows it crossing 30% — that is the threshold at which testing and staging fidelity have materially broken down.
 
@@ -131,7 +131,7 @@ Systematically invisible until someone burns out or resigns. Run a query against
 
 **OKR progress by team (% complete at current week of quarter vs. expected)**
 
-The OKR framework document covers goal-setting in depth — this is the dashboard signal: each team's progress as a percentage of where it should be at this point in the quarter. A team that is 40% complete at week 8 of a 13-week quarter is behind pace; a team that is 90% complete at week 4 either sand-bagged or is about to declare victory on something that was not ambitious enough.
+The dashboard signal is each team's progress as a percentage of where it should be at this point in the quarter. A team that is 40% complete at week 8 of a 13-week quarter is behind pace; a team that is 90% complete at week 4 either sand-bagged or is about to declare victory on something that was not ambitious enough.
 
 - Watch for: two or more teams simultaneously behind pace (suggests a cross-cutting dependency or a planning assumption that was wrong); a team consistently hitting 100% before week 10 (goals need to be reset)
 
@@ -146,7 +146,7 @@ Unplanned work is not inherently bad — incident response, urgent stakeholder r
 
 Cross-team dependencies that are blocking work. Track count, which team is blocked, which team is the blocker, and how long the block has been open. A blocker that has been open for three weeks without escalation is not being managed — it is being tolerated.
 
-- Instrument: Jira blocker links with a dependency-tracking label, or a dedicated RAID log (see program management playbooks)
+- Instrument: Jira blocker links with a dependency-tracking label, or a dedicated RAID log
 - Watch for: the same team showing up repeatedly as a blocker — this is a structural capacity or prioritization issue, not a one-time dependency problem
 
 **Initiative milestone health (RAG by initiative)**
@@ -192,7 +192,7 @@ The dashboard should live in a system that refreshes automatically — not a sli
 
 ## RAG Status Definitions
 
-Consistent RAG definitions prevent the dashboard from becoming a negotiation.
+Consistent RAG definitions prevent the dashboard from becoming a negotiation. For metrics without a clean percentage target, substitute the team-specific thresholds defined in each domain's "Watch for" notes.
 
 | Status | Meaning | Default response |
 |--------|---------|-----------------|
@@ -210,7 +210,7 @@ The same exclusion principles from the scorecard apply here, with one addition:
 
 **Individual engineer metrics.** The dashboard operates at team and system resolution, never individual contributor resolution. Using the dashboard to monitor individual output is both methodologically unsound (the metrics do not have the fidelity for that) and corrosive to the trust that makes the people signals useful. If you need to evaluate an individual's output, that belongs in a performance conversation with their manager, not on a dashboard.
 
-**Metrics that require manual input.** If a metric cannot be pulled from a system, it will not stay current. A manually updated dashboard decays within two weeks — the cost of keeping it fresh exceeds the value it provides. Every metric on the operational dashboard must have an automated data source.
+**Metrics that require manual input.** If a metric cannot be pulled from a system, it will not stay current. A manually updated dashboard decays within two weeks — the cost of keeping it fresh exceeds the value it provides. Every metric on the operational dashboard must have an automated data source. If your org lacks automated sources for people-domain metrics, start with the signals you can instrument and add the rest as tooling matures — a partially automated dashboard is still more reliable than a fully manual one.
 
 **Engagement survey scores.** Useful in a quarterly HR review; too noisy and infrequent for a weekly operational signal.
 
